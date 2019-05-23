@@ -26,7 +26,6 @@ class Owner
     @name = name
     @pets = { :fishes => [], :dogs => [], :cats => [] }
     self.class.all << self
-    binding.pry
   end
 
   def say_species
