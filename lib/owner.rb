@@ -16,7 +16,7 @@ class Owner
   end
 
   def self.reset_all
-    sell.all.clear
+    self.all.clear
   end
 
 
