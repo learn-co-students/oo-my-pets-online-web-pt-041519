@@ -65,7 +65,7 @@ attr_accessor :name, :pets
   end
 
   def list_pets
-    @pets.each{|type, arry| arry.each{|pet| puts pet.name}}
+    "I have #{@pets[:fishes].count} fish, #{@pets[:dogs].count} dog(s), and #{@pets[:cats].count} cat(s)."
   end
 
 end
