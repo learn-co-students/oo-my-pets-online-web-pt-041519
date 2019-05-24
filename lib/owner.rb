@@ -61,7 +61,7 @@ attr_accessor :name, :pets
     @pets[:dogs].each{ |dog| dog.mood = "nervous"}
     @pets[:cats].each{ |cat| cat.mood = "nervous"}
     @pets[:fishes].each{ |fish| fish.mood = "nervous"}
-    self.reset_all
+    @pets.clear
   end
 
 end
