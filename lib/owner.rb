@@ -64,4 +64,7 @@ attr_accessor :name, :pets
     @pets.clear
   end
 
+  def list_pets
+    @pets.each{|type, arry| arry.each{|pet| puts pet.name}}
+
 end
