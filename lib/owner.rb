@@ -30,7 +30,10 @@ attr_accessor :name, :pets
     "I am a #{species}."
   end
 
-
+  def buy_fish
+      fishy = Fish.new
+      @pets[:fishes] << fishy
+  end
 
 
 
