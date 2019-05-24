@@ -7,6 +7,11 @@ attr_accessor :name
     @name = name
     @@all << self
     @species = "human"
+    @pets = {
+      :fishes => [],
+      :dogs => [],
+      :cats => []
+    }
   end
 
   def self.all
